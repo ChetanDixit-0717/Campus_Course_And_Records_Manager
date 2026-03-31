@@ -222,8 +222,4 @@ Both exceptions are checked, meaning the compiler enforces that callers handle t
 - [ ] **Instructor entity** — extend the domain model to assign instructors to courses
 - [ ] **Prerequisites** — enforce course prerequisite chains at enrollment time
 
-## License
-
-This project is intended for educational purposes. See repository settings for licence details.
-
 Built with Java SE 17 by [Chetan Prakash](https://github.com/ChetanDixit-0717)
