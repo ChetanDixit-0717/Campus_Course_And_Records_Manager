@@ -155,7 +155,7 @@ Navigate by entering the number for any option. Sub-menus follow the same patter
 | **Config** | `AppConfig` (Singleton) |
 | **View / Controller** | `Main` (menu handlers) |
 
-### Builder Pattern — `Course`
+### Builder Pattern `Course`
 
 Courses have many optional attributes (capacity, semester, description). The `Course.Builder` inner class prevents partially-initialised objects and keeps call sites readable:
 
@@ -167,7 +167,7 @@ Course cs101 = new Course.Builder("CS101", "Introduction to Programming")
     .build();
 ```
 
-### Singleton — `AppConfig`
+### Singleton `AppConfig`
 
 All configuration (data directory, backup path, max credits per semester) lives in one place:
 
@@ -175,11 +175,11 @@ All configuration (data directory, backup path, max credits per semester) lives 
 int limit = AppConfig.getInstance().getMaxCreditsPerSemester();
 ```
 
-### Immutable Value Type — `CourseCode`
+### Immutable Value Type `CourseCode`
 
 `CourseCode` is a `final` class with all fields `final`. A course's identity cannot change after creation, making it safe to use as a map key or in equality checks without defensive copies.
 
-### Enum with Behaviour — `Grade`
+### Enum with Behaviour `Grade`
 
 ```java
 public enum Grade {
