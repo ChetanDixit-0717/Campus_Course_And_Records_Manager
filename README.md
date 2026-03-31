@@ -1,4 +1,4 @@
-# Campus Course & Records Manager (CCRM)
+# Campus Course & Records Manager (CCRM) 
 
 A console-based academic management system built in **Java SE 17** that handles student records, course catalogs, enrollments, and grade tracking, with full file-based persistence and automatic backups.
 
